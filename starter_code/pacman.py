@@ -15,7 +15,10 @@ def pacman(input_file):
     initalPosition = components[1]
     movements = components[2]
     walls = components[3:]
-    
+
+    gameBoard = [['O' for x in range(int(boardDimensions[0]))] for y in range(int(boardDimensions[1]))]
+    print(gameBoard)
+
 pacman('/Users/muayadalbazian/Documents/pacman/starter_code/input.txt')
 
 """ Use this function to format your input/output arguments. Be sure not to change the order of the output arguments. 
