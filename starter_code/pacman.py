@@ -4,8 +4,9 @@ Write a module docstring here
 
 __author__ = "Your Name"
 
-
 def pacman(input_file):
+    with open('/Users/muayadalbazian/Documents/pacman/starter_code/input.txt', 'r') as f:
+        lines = f.readlines()
     """ Use this function to format your input/output arguments. Be sure not to change the order of the output arguments. 
     Remember that code organization is very important to us, so we encourage the use of helper fuctions and classes as you see fit.
     
